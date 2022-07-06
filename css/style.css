@@ -65,13 +65,14 @@ body{
 .type_amount {
     padding-bottom: 50px;
 }
-.type_amount input{
+.type_amount .amout{
     color: gray;
     font-size: 20px;
     border: none;
     border-bottom: 2px solid gray;
     width: 750px;
     text-align: center;
+    padding: 20px 0;
 }
 
 #donation_plan{
@@ -167,7 +168,7 @@ body{
     padding: 50px 0;
     margin: 0 auto;
 }
-.mail_box input{
+.mail_box .email{
     background-color: rgb(236, 236, 236);
     width: 260px;
     height: 50px;
@@ -175,6 +176,8 @@ body{
     font-size: 17px;
     color: gray;
     border: none;
+    text-align: left;
+    
 }
 .mail_box a{
     margin-left: -10px;
